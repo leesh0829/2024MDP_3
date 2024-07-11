@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/2. Scenes/MainMenu.unity
     guid: 3e93bee5079f2b74db20023465a7ef0b
   - enabled: 1
-    path: Assets/Scenes/BasicStage.unity
+    path: Assets/2. Scenes/BasicStage.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/2. Scenes/SelectCorse.unity
+    guid: 7a7ebf1370038e6479ad67189fad3c80
+  - enabled: 1
+    path: Assets/2. Scenes/Corse1.unity
+    guid: 191fae99602b1334594babaaa4a5c9ec
+  - enabled: 1
+    path: Assets/2. Scenes/Corse2.unity
+    guid: 9ea4dcb923b6be842b8b4691d200d388
   m_configObjects: {}
