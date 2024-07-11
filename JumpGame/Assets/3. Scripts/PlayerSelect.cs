@@ -37,6 +37,10 @@ public class PlayerSelect : MonoBehaviour
     {
         jumpCount = 0;
 
+        if (collision.gameObject.CompareTag("5"))
+        {
+            SceneManager.LoadScene("BasicStage");
+        }
         if (collision.gameObject.CompareTag("1"))
         {
             SceneManager.LoadScene("Corse1");
@@ -48,14 +52,6 @@ public class PlayerSelect : MonoBehaviour
         if (collision.gameObject.CompareTag("3"))
         {
             SceneManager.LoadScene("Corse3");
-        }
-        if (collision.gameObject.CompareTag("4"))
-        {
-            SceneManager.LoadScene("Corse4");
-        }
-        if (collision.gameObject.CompareTag("5"))
-        {
-            SceneManager.LoadScene("Corse5");
         }
     }
 
