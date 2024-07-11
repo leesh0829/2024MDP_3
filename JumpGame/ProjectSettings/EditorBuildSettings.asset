@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/2. Scenes/Corse3.unity
     guid: 66d0a5ffa66824e45a9d543a90bfa2f5
+  - enabled: 1
+    path: Assets/2. Scenes/Corse6.unity
+    guid: b53c1bca7aae9784e854442405d04f90
   m_configObjects: {}
