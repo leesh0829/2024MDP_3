@@ -49,6 +49,10 @@ public class PlayerSelect : MonoBehaviour
         {
             SceneManager.LoadScene("Corse2");
         }
+        if (collision.gameObject.CompareTag("3"))
+        {
+            SceneManager.LoadScene("Corse3");
+        }
     }
 
         void FixedUpdate()
