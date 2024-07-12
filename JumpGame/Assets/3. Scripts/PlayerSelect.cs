@@ -5,16 +5,27 @@ using UnityEngine.SceneManagement;
 
 public class PlayerSelect : MonoBehaviour
 {
+    public static PlayerSelect instance;
+
     public float speed = 5;
     public float jumpPower = 5;
     float moveX;
 
     int jumpMax = 2;
     int jumpCount = 0;
+    public int Corse = 0;
 
     Rigidbody2D rb;
 
-    void Start()
+
+    private void Awake()
+    {
+        if (PlayerSelect.instance == null)
+        {
+            PlayerSelect.instance = this;
+        }
+    }
+        void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
@@ -37,21 +48,55 @@ public class PlayerSelect : MonoBehaviour
     {
         jumpCount = 0;
 
-        if (collision.gameObject.CompareTag("5"))
-        {
-            SceneManager.LoadScene("BasicStage");
-        }
         if (collision.gameObject.CompareTag("1"))
         {
             SceneManager.LoadScene("Corse1");
+            Corse = 2;
         }
         if (collision.gameObject.CompareTag("2"))
         {
             SceneManager.LoadScene("Corse2");
+            Corse = 3;
         }
         if (collision.gameObject.CompareTag("3"))
         {
             SceneManager.LoadScene("Corse3");
+            Corse = 4;
+        }
+        if (collision.gameObject.CompareTag("4"))
+        {
+            SceneManager.LoadScene("Corse4");
+            Corse = 5;
+        }
+        if (collision.gameObject.CompareTag("5"))
+        {
+            SceneManager.LoadScene("Corse5");
+            Corse = 6;
+        }
+        if (collision.gameObject.CompareTag("6"))
+        {
+            SceneManager.LoadScene("Corse6");
+            Corse = 7;
+        }
+        if (collision.gameObject.CompareTag("7"))
+        {
+            SceneManager.LoadScene("Corse7");
+            Corse = 8;
+        }
+        if (collision.gameObject.CompareTag("8"))
+        {
+            SceneManager.LoadScene("Corse8");
+            Corse = 9;
+        }
+        if (collision.gameObject.CompareTag("9"))
+        {
+            SceneManager.LoadScene("Corse9");
+            Corse = 10;
+        }
+        if (collision.gameObject.CompareTag("10"))
+        {
+            SceneManager.LoadScene("Corse10");
+            Corse = 11;
         }
     }
 

@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/2. Scenes/MainMenu.unity
     guid: 3e93bee5079f2b74db20023465a7ef0b
   - enabled: 1
-    path: Assets/2. Scenes/BasicStage.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/2. Scenes/SelectCorse.unity
     guid: 7a7ebf1370038e6479ad67189fad3c80
   - enabled: 1
@@ -24,6 +21,24 @@ EditorBuildSettings:
     path: Assets/2. Scenes/Corse3.unity
     guid: 66d0a5ffa66824e45a9d543a90bfa2f5
   - enabled: 1
+    path: Assets/2. Scenes/Corse4.unity
+    guid: e6f8adff192ae0846b1b88e923244d52
+  - enabled: 1
+    path: Assets/2. Scenes/Corse5.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
     path: Assets/2. Scenes/Corse6.unity
     guid: b53c1bca7aae9784e854442405d04f90
+  - enabled: 1
+    path: Assets/2. Scenes/Corse7.unity
+    guid: dbea9de61dd6d634291987cea3c9cc49
+  - enabled: 1
+    path: Assets/2. Scenes/Corse8.unity
+    guid: e34aea3f130cd5f4595039dadc141cbd
+  - enabled: 1
+    path: Assets/2. Scenes/Corse9.unity
+    guid: f3899d5e694ca13429b1703988b83f7a
+  - enabled: 1
+    path: Assets/2. Scenes/Corse10.unity
+    guid: 1cebcfea8765feb4c9851cff5caea87c
   m_configObjects: {}

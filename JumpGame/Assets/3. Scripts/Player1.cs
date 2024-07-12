@@ -65,5 +65,11 @@ public class Player1 : MonoBehaviour
         Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(PlayerSelect.instance.Corse);
+    }
 }
 

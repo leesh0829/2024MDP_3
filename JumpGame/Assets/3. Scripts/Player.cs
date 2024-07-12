@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
     public float speed = 5;
     public float jumpPower = 5;
     float moveX;
@@ -70,6 +71,12 @@ public class Player : MonoBehaviour
     {
         Time.timeScale = 1;
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(PlayerSelect.instance.Corse);
     }
 }
 
