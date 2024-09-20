@@ -11,7 +11,7 @@
 &emsp; 역할: 코스 6 개발(도움) <br>
 <A href = "https://github.com/leesh0829" target = "링크 방법" > 이승현 </A>
 &emsp; 역할: 나머지(메인 개발) <br><br><br>
-<b><a href = "https://drive.google.com/file/d/1NLGRgI_MwvYw_YCDR-UiT5g8HcxP0C5n/view?usp=sharing">&#183;PC 버전 게임 설치 파일</b><br>
+<b><a href = "https://drive.google.com/file/d/1s4GFzTaxdZKrrriHUJ3nzP_2mbUk0zYb/view?usp=sharing">&#183;PC 버전 게임 설치 파일</b><br>
 <b><a href = "https://drive.google.com/file/d/1BdVeW5FaGh5MwqKKdYl88-LZkUtRAxv4/view?usp=sharing">&#183;모바일 버전 게임 설치 파일</b><br><br><br>
  <A href = "https://youtu.be/gwNewXl2Dtw" target = "링크 방법" > 홍보, 설명영상 보기</A> <br><br><br>
 <h4>다른 작품 보기</h4>
